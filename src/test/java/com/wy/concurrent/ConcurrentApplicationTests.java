@@ -1,4 +1,4 @@
-package com.wy.concurrent.concurrent;
+package com.wy.concurrent;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
