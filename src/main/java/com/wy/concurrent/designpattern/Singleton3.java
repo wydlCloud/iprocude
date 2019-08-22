@@ -1,5 +1,7 @@
 package com.wy.concurrent.designpattern;
 
+import lombok.Data;
+
 /**
  * Created on 2019/8/22.
  * Title: Simple

@@ -1,6 +1,6 @@
 package com.wy.concurrent.designpattern;
 
-import lombok.Data;
+
 
 /**
  * Created on 2019/8/22.
@@ -11,7 +11,6 @@ import lombok.Data;
  *
  * @author wy
  */
-@Data
 public class Singleton2 {
 
     private static Singleton2 singleton2;
