@@ -11,6 +11,8 @@ package com.wy.concurrent.first;
  */
 public class NewThread implements Runnable {
 
+
+
     @Override
     public synchronized void run() {
         //  System.out.println("Thread start .......");
@@ -28,6 +30,7 @@ public class NewThread implements Runnable {
     }
 
     public static void main(String[] args) {
+
         NewThread newThread = new NewThread();
         //create thread  Assign a task
         //初始化状态
