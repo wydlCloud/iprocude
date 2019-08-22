@@ -9,16 +9,20 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Date 2019/8/22  21:41
  * @company
  */
-//
+//jdk提供的原子类使用（解决并发问题）
+//原子更新基本数据类型
+//原子更新数组
+//原子更新抽象类型
+//原子更新字段
 public class Demo8 {
 
-     private AtomicInteger value = new AtomicInteger(0);
+    private AtomicInteger value = new AtomicInteger(0);
 
-   // private int value;
+    // private int value;
 
     public int getNext() {
-         return value.getAndIncrement();
-       // return value++;
+        return value.getAndIncrement();
+        // return value++;
     }
 
     public static void main(String[] args) {
