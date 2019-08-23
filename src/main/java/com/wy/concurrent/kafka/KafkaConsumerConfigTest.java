@@ -11,14 +11,16 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import java.util.Arrays;
 import java.util.Properties;
 
-  
-/*Created on 2019/7/18.
-          Title:Simple
-          Description:
-          Copyright:Copyright(c)2018
-          Company:杭州公共交通云科技有限公司
 
-@author wy*/
+/**
+ * Created on 2019/7/18.
+ * Title:Simple
+ * Description:
+ * Copyright:Copyright(c)2018
+ * Company:
+ *
+ * @author wy
+ */
 
 public class KafkaConsumerConfigTest {
 
