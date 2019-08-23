@@ -1,4 +1,4 @@
-package com.wy.concurrent.designpattern;
+package com.wy.concurrent.designpattern.singleton;
 
 
 

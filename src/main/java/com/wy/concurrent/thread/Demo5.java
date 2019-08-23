@@ -1,12 +1,7 @@
-package com.wy.concurrent.first;
+package com.wy.concurrent.thread;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created on 2019/8/21.

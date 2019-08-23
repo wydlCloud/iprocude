@@ -1,4 +1,4 @@
-package com.wy.concurrent.first;
+package com.wy.concurrent.thread;
 
 /**
  * Created on 2019/8/21.

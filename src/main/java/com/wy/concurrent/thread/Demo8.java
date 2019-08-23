@@ -1,4 +1,4 @@
-package com.wy.concurrent.first;
+package com.wy.concurrent.thread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -14,6 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 //原子更新数组
 //原子更新抽象类型
 //原子更新字段
+//保证线程安全  要满足三大特性（1.原子性  2.可见性 3.有序性）
 public class Demo8 {
 
     private AtomicInteger value = new AtomicInteger(0);

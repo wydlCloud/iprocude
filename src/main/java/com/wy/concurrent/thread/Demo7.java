@@ -1,6 +1,4 @@
-package com.wy.concurrent.first;
-
-import java.util.Objects;
+package com.wy.concurrent.thread;
 
 /**
  * Created on 2019/8/22.

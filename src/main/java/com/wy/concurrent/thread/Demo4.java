@@ -1,4 +1,4 @@
-package com.wy.concurrent.first;
+package com.wy.concurrent.thread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

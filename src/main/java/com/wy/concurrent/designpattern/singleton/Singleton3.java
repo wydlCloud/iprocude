@@ -1,6 +1,4 @@
-package com.wy.concurrent.designpattern;
-
-import lombok.Data;
+package com.wy.concurrent.designpattern.singleton;
 
 /**
  * Created on 2019/8/22.
