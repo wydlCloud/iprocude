@@ -16,7 +16,6 @@ import java.util.List;
  */
 public class ThreadTest {
 
-
     public static void main(String[] args) {
         int CPUs =Runtime.getRuntime().availableProcessors();
         List<Integer> list  = new ArrayList();
