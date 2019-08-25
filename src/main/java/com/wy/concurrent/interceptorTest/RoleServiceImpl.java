@@ -1,6 +1,5 @@
 package com.wy.concurrent.interceptorTest;
 
-import com.example.demo.ids.spring.Role;
 
 /**
  * Created on 2019/4/20.
