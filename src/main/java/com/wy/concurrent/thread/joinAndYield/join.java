@@ -20,7 +20,6 @@ public class join {
         Thread thread = new Thread(() -> {
             for (i = 0; i < 1000000; i++) {
             }
-
         });
         thread.start();
         //join（）本质是让调用线程wait（）在当前线程对象实例上，核心代码其实还是调用的wait()方法
