@@ -19,11 +19,13 @@ import java.util.List;
  * Created on 2019/3/20.
  * Title: Simple
  * Description: Json工具类
- * Copyright: Copyright(c) 2018
- * Company: 杭州公共交通云科技有限公司
+ * Copyright: Copyright(c) 2019
+ * Company:
  *
  * @author wy
  */
+
+
 public class JsonUtil {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonUtil.class);
@@ -106,7 +108,7 @@ public class JsonUtil {
 
         try {
             ret = JSON.toJSONString(obj,
-                    new SerializerFeature[] { SerializerFeature.WriteTabAsSpecial });
+                    new SerializerFeature[]{SerializerFeature.WriteTabAsSpecial});
         } catch (JSONException var3) {
             logger.error("JSONException", var3);
         }
