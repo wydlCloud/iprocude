@@ -6,8 +6,8 @@ import java.net.Socket;
 
 /**
  * Created on 2019/8/31.
- * Title: Simple
- * Description:同步阻塞IO服务端
+ * Title: 同步阻塞IO服务端
+ * Description:
  * Copyright: Copyright(c) 2019
  * Company:
  *

@@ -8,8 +8,8 @@ import java.net.Socket;
 
 /**
  * Created on 2019/8/31.
- * Title: Simple
- * Description:同步阻塞客户端
+ * Title: 同步阻塞客户端
+ * Description:
  * Copyright: Copyright(c) 2019
  * Company:
  *
