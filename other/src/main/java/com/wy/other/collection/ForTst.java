@@ -17,10 +17,10 @@ public class ForTst {
 
     public static void main(String[] args) {
         List<Integer> ints = new ArrayList();
-        long start = System.currentTimeMillis();
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 100000; i++) {
             ints.add(i);
         }
+        long start = System.currentTimeMillis();
         int size = ints.size();
         for (int i = 0; i < size; i++) {
             ints.get(i);

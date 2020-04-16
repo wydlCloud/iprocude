@@ -6,7 +6,8 @@
     <modules>
         <module>juc</module>
 		<module>other</module>
-	</modules>
+        <module>jvm</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

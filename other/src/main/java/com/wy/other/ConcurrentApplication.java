@@ -7,7 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ConcurrentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConcurrentApplication.class, args);
+
+//		SpringApplication.run(ConcurrentApplication.class, args);
+		Float a =new Float(0.0/0.0);
+		boolean naN = Float.isNaN(a);
+		System.out.println(naN);
 	}
+
+
 
 }

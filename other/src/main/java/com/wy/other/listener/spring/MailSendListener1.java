@@ -6,7 +6,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname MailSendListener1
  * @Description TODO
  * @Date 2020/4/1 11:29 下午

@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContextAware;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname MailSend
  * @Description 事件源
  * @Date 2020/4/1 10:40 下午

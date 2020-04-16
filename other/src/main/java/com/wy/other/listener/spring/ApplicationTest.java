@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname ApplicationTest
  * @Description TODO
  * @Date 2020/4/1 10:42 下午

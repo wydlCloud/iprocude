@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationListener;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname MailSendListener
  * @Description 事件监听器
  * @Date 2020/4/1 10:37 下午

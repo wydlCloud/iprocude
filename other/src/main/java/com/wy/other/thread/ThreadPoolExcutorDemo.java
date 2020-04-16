@@ -30,13 +30,13 @@ public class ThreadPoolExcutorDemo {
     public static void main(String[] args) throws InterruptedException {
 
 
-       ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(100,100,10,TimeUnit.SECONDS,new LinkedBlockingQueue(100));
+       ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(6,100,0,TimeUnit.SECONDS,new LinkedBlockingQueue(100));
         long start = System.currentTimeMillis();
         CountDownLatch countDownLatch = new CountDownLatch(100);
         List<Integer> list = new CopyOnWriteArrayList<>();
         for (int i = 0; i < 100; i++) {
             threadPoolExecutor.execute(() -> {
-                for (int l = 0; l < 100; l++) {
+                for (int l = 0; l < 1000; l++) {
                     list.add(l);
                 }
                 countDownLatch.countDown();
