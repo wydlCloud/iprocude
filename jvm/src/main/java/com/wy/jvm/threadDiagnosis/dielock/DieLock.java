@@ -2,7 +2,7 @@ package com.wy.jvm.threadDiagnosis.dielock;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname DieLock
  * @Description 迟迟拿不到结果  死锁
  * @Date 2020/4/17 5:27 下午

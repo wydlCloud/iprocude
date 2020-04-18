@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname HeapOOM
  * @Description 堆内存溢出  -Xmx16m  设置堆内存的参数配置
  * 堆内存溢出：

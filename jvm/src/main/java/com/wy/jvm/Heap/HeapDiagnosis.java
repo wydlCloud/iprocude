@@ -2,7 +2,7 @@ package com.wy.jvm.Heap;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname HeapDiagnosis
  * @Description TODO
  * @Date 2020/4/18 3:12 下午

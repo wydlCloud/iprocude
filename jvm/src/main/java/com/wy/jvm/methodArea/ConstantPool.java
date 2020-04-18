@@ -2,7 +2,7 @@ package com.wy.jvm.methodArea;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname ConstantPool
  * @Description 常量池
  * @Date 2020/4/18 11:30 下午

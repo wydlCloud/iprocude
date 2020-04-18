@@ -4,7 +4,7 @@ import java.util.Set;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname MethodInstanceIsThreadSafe
  * @Description 方法内的局部变量是否是线程安全？验证
  * @Date 2020/4/15 10:35 上午

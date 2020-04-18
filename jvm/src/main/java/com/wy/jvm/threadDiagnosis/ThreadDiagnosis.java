@@ -2,7 +2,7 @@ package com.wy.jvm.threadDiagnosis;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname ThreadDiagnosis
  * @Description 案例一：cpu占用过多，问题排查
  * <p>
@@ -19,7 +19,7 @@ package com.wy.jvm.threadDiagnosis;
  * <p>
  * mac系统不可用，有时间进行排查操作？？？？
  */
-// todo  mac系统不可用，有时间进行排查操作？？？？
+// todo  mac系统不可用，有时间进行排查操作？？？？已经使用linux系统进行线程诊断
 // 线程诊断
 public class ThreadDiagnosis {
     public static void main(String[] args) {

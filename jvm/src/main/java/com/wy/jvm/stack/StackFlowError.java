@@ -2,7 +2,7 @@ package com.wy.jvm.stack;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname StackFlowError
  * @Description 演示栈溢出 分为两种 1.栈太深，导致溢出  2.栈帧太大直接溢出（这个不大好验证）
  * 设置栈的大小

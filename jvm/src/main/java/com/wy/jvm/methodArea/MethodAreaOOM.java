@@ -6,7 +6,7 @@ import jdk.internal.org.objectweb.asm.Opcodes;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname MethodAreaOOM
  * @Description jdk1.8之前是方法区内存溢出  jdk1.8以及以后是元空间内存溢出
  * 参数命令为：-XX:MaxMetaspaceSize=9m

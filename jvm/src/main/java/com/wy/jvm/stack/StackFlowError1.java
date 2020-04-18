@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company
  * @Classname StackFlowError1
  * @Description 栈内存溢出
  * @Date 2020/4/17 4:00 下午
