@@ -1,4 +1,4 @@
-package com.wy.jvm.threadDiagnosis;
+package com.wy.jvm.MemoryStructure.threadDiagnosis;
 
 /**
  * @author wy

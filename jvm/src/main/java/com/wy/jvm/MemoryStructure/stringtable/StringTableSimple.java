@@ -1,4 +1,4 @@
-package com.wy.jvm.stringtable;
+package com.wy.jvm.MemoryStructure.stringtable;
 /**
  * @author wy
  * @company

@@ -1,4 +1,4 @@
-package com.wy.jvm.Heap;
+package com.wy.jvm.MemoryStructure.Heap;
 
 import java.util.ArrayList;
 import java.util.List;

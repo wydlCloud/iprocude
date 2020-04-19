@@ -1,4 +1,4 @@
-package com.wy.jvm.methodArea;
+package com.wy.jvm.MemoryStructure.methodArea;
 
 /**
  * @author wy

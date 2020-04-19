@@ -1,4 +1,4 @@
-package com.wy.jvm.directMemory;
+package com.wy.jvm.MemoryStructure.directMemory;
 
 /**
  * @author wy

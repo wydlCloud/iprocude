@@ -1,4 +1,4 @@
-package com.wy.jvm.Heap;
+package com.wy.jvm.MemoryStructure.Heap;
 
 /**
  * @author wy

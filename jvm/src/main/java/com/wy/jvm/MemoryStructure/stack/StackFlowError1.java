@@ -1,4 +1,4 @@
-package com.wy.jvm.stack;
+package com.wy.jvm.MemoryStructure.stack;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.core.JsonProcessingException;

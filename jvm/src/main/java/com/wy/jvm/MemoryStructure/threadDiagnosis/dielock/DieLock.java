@@ -1,4 +1,4 @@
-package com.wy.jvm.threadDiagnosis.dielock;
+package com.wy.jvm.MemoryStructure.threadDiagnosis.dielock;
 
 /**
  * @author wy
