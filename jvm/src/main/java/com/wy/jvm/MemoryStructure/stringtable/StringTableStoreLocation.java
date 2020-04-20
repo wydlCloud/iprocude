@@ -34,9 +34,11 @@ public class StringTableStoreLocation {
         List<String> list = new ArrayList<>();
         int i = 0;
         try {
-            for (int j = 0; j < 300000000; j++) {
-                String intern = String.valueOf(j).intern();
-                // list.add(String.valueOf(j).intern());
+            for (int j = 0; j < 3000000; j++) {
+//                String intern = String.valueOf(j).intern();
+//                System.out.println(intern);
+//                list.add(String.valueOf(j).intern());
+                String s = "J"+j;
                 i++;
             }
         } catch (Throwable e) {
