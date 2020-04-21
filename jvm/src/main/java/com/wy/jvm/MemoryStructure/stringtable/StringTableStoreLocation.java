@@ -34,11 +34,11 @@ public class StringTableStoreLocation {
         List<String> list = new ArrayList<>();
         int i = 0;
         try {
-            for (int j = 0; j < 3000000; j++) {
-//                String intern = String.valueOf(j).intern();
-//                System.out.println(intern);
+            for (int j = 0; j < 30000000; j++) {
+                String intern = String.valueOf(j)+j;
+                String intern1 = intern.intern();
+                System.out.println(intern1);
 //                list.add(String.valueOf(j).intern());
-                String s = "J"+j;
                 i++;
             }
         } catch (Throwable e) {

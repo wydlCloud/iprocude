@@ -16,11 +16,13 @@ public class StringTable {
         String s4=s1+s2;
         String s5="ab";
         String s6=s4.intern();
+        String s7=new String("a");
 
         // 问
-        System.out.println(s3==s4); //true
+        System.out.println(s3==s4); //false
         System.out.println(s3==s5); // true
         System.out.println(s3==s6); // true
+        System.out.println(s7==s1); // false
 
         String x2=new String("c")+new String("d");
         String x1="cd";
