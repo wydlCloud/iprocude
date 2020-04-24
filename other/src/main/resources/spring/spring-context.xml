@@ -7,4 +7,5 @@
     <bean class="com.wy.other.listener.spring.MailSendListener1"/>
     <bean id="mailSender" class="com.wy.other.listener.spring.MailSend"/>
     <bean id="mailSender2" class="com.wy.other.listener.spring.MailSend2"/>
+    <bean id="beanUtils" class="com.wy.other.listener.spring.BeanUtils"/>
 </beans>

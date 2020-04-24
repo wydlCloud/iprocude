@@ -11,7 +11,8 @@ import java.util.List;
  * @author wy
  * @company
  * @Classname StackFlowError1
- * @Description 栈内存溢出
+ * @Description
+ * Caused by: java.lang.StackOverflowError
  * @Date 2020/4/17 4:00 下午
  */
 
@@ -36,7 +37,7 @@ public class StackFlowError1 {
     static class Emp{
         private String name;
        // 可以解决循环依赖的问题，在某个过程中进行忽略可以解决
-        @JsonIgnore
+       // @JsonIgnore
         private Dept dept;
 
         public String getName() {
