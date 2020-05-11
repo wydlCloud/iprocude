@@ -8,7 +8,9 @@
 		<module>other</module>
         <module>jvm</module>
 		<module>data-structure</module>
-	</modules>
+		<module>customize-mybatis</module>
+        <module>customize-mybatis-frame</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
