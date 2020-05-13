@@ -2,9 +2,9 @@ package com.wy.customize.pojo;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(江苏)网络科技
  * @Classname User
- * @Description TODO
+ * @Description 用户实体类
  * @Date 2020/5/11 11:20 下午
  */
 

@@ -1,4 +1,4 @@
-package com.wy.customizeframe.resource;
+package com.wy.customizeframe.io;
 
 import java.io.InputStream;
 

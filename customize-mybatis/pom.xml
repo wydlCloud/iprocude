@@ -11,7 +11,13 @@
 
     <groupId>com.wy.concurrent</groupId>
     <artifactId>customize-mybatis</artifactId>
-
+<dependencies>
+    <dependency>
+        <groupId>com.wy.concurrent</groupId>
+        <artifactId>customize-mybatis-Frame</artifactId>
+        <version>1.0.0-snapshot</version>
+    </dependency>
+</dependencies>
 
 
 

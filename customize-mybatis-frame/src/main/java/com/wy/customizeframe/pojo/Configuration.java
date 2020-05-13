@@ -1,4 +1,4 @@
-package com.wy.customizeframe.config;
+package com.wy.customizeframe.pojo;
 
 import javax.sql.DataSource;
 import java.util.HashMap;
