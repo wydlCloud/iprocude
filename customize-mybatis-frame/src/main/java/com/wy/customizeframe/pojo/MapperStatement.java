@@ -8,18 +8,18 @@ package com.wy.customizeframe.pojo;
  * @Date 2020/5/12 12:22 上午
  */
 
-public class MappedStatement {
+public class MapperStatement {
 
-    private Integer id;
+    private String id;
     private String sql;
     private Class<?> paramterType;
     private Class<?> resultType;
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -3,6 +3,7 @@ package com.wy.customizeframe.pojo;
 import javax.sql.DataSource;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author wy
@@ -16,8 +17,8 @@ public class Configuration {
     // 数据源
     private DataSource dataSource;
 
-     //map集合key:statementId value:MappedStatement
-    private Map<String,MappedStatement> mappedStatementMap=new HashMap<String,MappedStatement>();
+    //map集合key:statementId namespace+"."+id value:MappedStatement
+    private ConcurrentHashMap<String, MapperStatement> mappedStatementMap = new ConcurrentHashMap<>();
 
     public DataSource getDataSource() {
         return dataSource;
@@ -27,11 +28,11 @@ public class Configuration {
         this.dataSource = dataSource;
     }
 
-    public Map<String, MappedStatement> getMappedStatementMap() {
+    public Map<String, MapperStatement> getMappedStatementMap() {
         return mappedStatementMap;
     }
 
-    public void setMappedStatementMap(Map<String, MappedStatement> mappedStatementMap) {
+    public void setMappedStatementMap(ConcurrentHashMap<String, MapperStatement> mappedStatementMap) {
         this.mappedStatementMap = mappedStatementMap;
     }
 }
