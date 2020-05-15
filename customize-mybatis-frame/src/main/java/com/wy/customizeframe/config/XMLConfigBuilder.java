@@ -66,7 +66,7 @@ public class XMLConfigBuilder {
         mapperList.forEach(x->{
             // 获取到的就是mapper.xml的路径
             String mapperPath = x.attributeValue("resource");
-            InputStream resourceAsStream = Resources.getResourceAsStream(mapperPath);
+            InputStream resourceAsStream = Resources.class.getClassLoader().getResourceAsStream(mapperPath);
             // 获取到mapper.xml的字节流 通过此实体类的此方法进行解析，并将进行赋值到
             try {
                 xmlMapperConfigBuilder.parseMapper(resourceAsStream);

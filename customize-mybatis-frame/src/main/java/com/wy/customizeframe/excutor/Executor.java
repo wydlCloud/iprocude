@@ -18,8 +18,6 @@ public interface Executor {
     public <E> List<E> query(Configuration configuration, MapperStatement
             mappedStatement, Object[] param) throws Exception;
 
-    // 关闭方法
-    public void close() throws SQLException;
 
 
 }

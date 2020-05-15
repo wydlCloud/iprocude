@@ -12,8 +12,8 @@ public class MapperStatement {
 
     private String id;
     private String sql;
-    private Class<?> paramterType;
-    private Class<?> resultType;
+    private String paramterType;
+    private String resultType;
 
     public String getId() {
         return id;
@@ -31,19 +31,19 @@ public class MapperStatement {
         this.sql = sql;
     }
 
-    public Class<?> getParamterType() {
+    public String getParamterType() {
         return paramterType;
     }
 
-    public void setParamterType(Class<?> paramterType) {
+    public void setParamterType(String paramterType) {
         this.paramterType = paramterType;
     }
 
-    public Class<?> getResultType() {
+    public String getResultType() {
         return resultType;
     }
 
-    public void setResultType(Class<?> resultType) {
+    public void setResultType(String resultType) {
         this.resultType = resultType;
     }
 }
