@@ -16,7 +16,7 @@ import java.util.List;
  * @author wy
  * @company 唯小宝(江苏)网络科技
  * @Classname CustomizeTest
- * @Description 自定义框架测试类
+ * @Description 自定义框架测试类（支持传入自定义实体类作为入参，关于入参为int long等信息的还没有进行相关功能的编写和校验）
  * @Date 2020/5/15 4:21 下午
  */
 
