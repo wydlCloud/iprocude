@@ -27,4 +27,12 @@ public interface SqlSession {
      */
     public <T> T selectOne(String statementId, Object... params) throws
             Exception;
+
+    /**
+     * 获取mapper的映射类，通过此方法，可以直接调用mapper中的方法，可以直接执行sql
+     * @param clazz
+     * @param <T>
+     * @return
+     */
+    public <T> T getMapper(Class<?> clazz);
 }

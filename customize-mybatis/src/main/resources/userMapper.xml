@@ -1,0 +1,18 @@
+<!--<mapper namespace="User">-->
+<mapper namespace="com.wy.customize.mapper.UserMapper">
+<!--    <select id="selectOne" paramterType="com.wy.customize.pojo.User"-->
+<!--            resultType="com.wy.customize.pojo.User">-->
+<!--        select * from user where id = #{id} and username =#{username}-->
+<!--    </select>-->
+<!--    <select id="selectList" paramterType="com.wy.customize.pojo.User" resultType="com.wy.customize.pojo.User">-->
+<!--        select * from user-->
+<!--    </select>-->
+
+    <select id="findOne" paramterType="com.wy.customize.pojo.User"
+            resultType="com.wy.customize.pojo.User">
+        select * from user where id = #{id} and username =#{username}
+    </select>
+    <select id="findAll" paramterType="com.wy.customize.pojo.User" resultType="com.wy.customize.pojo.User">
+        select * from user
+    </select>
+</mapper>

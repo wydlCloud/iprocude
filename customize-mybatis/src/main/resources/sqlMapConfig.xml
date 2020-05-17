@@ -5,5 +5,5 @@
     <property name="user" value="root"></property>
     <property name="password" value="root"></property>
     <!--引入sql配置信息-->
-    <mapper resource="mapper.xml"></mapper>
+    <mapper resource="userMapper.xml"></mapper>
 </configuration>

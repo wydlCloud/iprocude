@@ -4,7 +4,11 @@ import com.wy.customizeframe.excutor.Executor;
 import com.wy.customizeframe.excutor.SimpleExecutor;
 import com.wy.customizeframe.pojo.Configuration;
 import com.wy.customizeframe.pojo.MapperStatement;
+import sun.misc.ProxyGenerator;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.lang.reflect.*;
 import java.util.List;
 
 /**
@@ -42,5 +46,56 @@ public class DefaultSqlSession implements SqlSession {
             throw new RuntimeException("query result is empty OR query multiple");
         }
         return (T) objectList.get(ZERO);
+    }
+    // 可以理解为生成mapper代理类的方法
+    @Override
+    public <T> T getMapper(Class<?> clazz) {
+        // 使用java动态代理来为mapper接口生成代理对象，并返回
+        Object proxyInstance = Proxy.newProxyInstance(clazz.getClassLoader(), new Class[]{clazz}, new InvocationHandler() {
+            @Override
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                // 底层其实都是去执行jdbc代码 根据不同的情况，，来调用selectList 和selectOne即可
+                // 准备参数 1. statementId  2.方法名
+                String methodName = method.getName();
+                String className = method.getDeclaringClass().getName();
+                String statementId=className+"."+methodName;
+                // 准备参数 param：args
+                // 获取返回值类型
+                Type genericReturnType = method.getGenericReturnType();
+                if (genericReturnType instanceof ParameterizedType){
+                    // 如果是参数类型，则返回的是数组
+                    List<Object> objectList = selectList(statementId, args);
+                    return objectList;
+                }
+                return selectOne(statementId,args);
+            }
+        });
+        addClassToDisk(clazz.getName(), clazz,"/Users/wy/project/concurrent/customize-mybatis-frame/$Proxy1.class");
+        return (T) proxyInstance;
+    }
+    /**
+     * 用于生产代理对象的字节码，并将其保存到硬盘上
+     * @param className
+     * @param cl
+     * @param path
+     */
+    private static void addClassToDisk(String className, Class<?> cl, String path) {
+        //用于生产代理对象的字节码
+        byte[] classFile = ProxyGenerator.generateProxyClass(className, cl.getInterfaces());
+        FileOutputStream out = null;
+        try {
+            out = new FileOutputStream(path);
+            //将代理对象的class字节码写到硬盘上
+            out.write(classFile);
+            out.flush();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                out.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
