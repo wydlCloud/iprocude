@@ -2,10 +2,10 @@ package com.wy.other;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname TryCatchTest
  * @Description TODO
- * @Date 2020/4/14 5:05 下午
+ * @ 2020/4/14 5:05 下午
  */
 
 public class TryCatchTest {

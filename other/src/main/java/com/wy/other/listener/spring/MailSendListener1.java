@@ -9,7 +9,6 @@ import org.springframework.context.event.ContextRefreshedEvent;
  * @company
  * @Classname MailSendListener1
  * @Description TODO
- * @Date 2020/4/1 11:29 下午
  */
 
 public class MailSendListener1  implements ApplicationListener<ContextRefreshedEvent> {

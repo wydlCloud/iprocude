@@ -5,7 +5,6 @@ package com.wy.other.polymorphism;
  * @company
  * @Classname Animal
  * @Description 动物类
- * @Date 2020/4/21 3:42 下午
  */
 
 public class Animal {

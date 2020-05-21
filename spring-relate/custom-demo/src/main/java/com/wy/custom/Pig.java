@@ -7,7 +7,6 @@ import lombok.Data;
  * @company wy(中国)网络科技
  * @Classname Pig
  * @Description 动物类（Pig）
- * @Date 2020/5/21 2:15 下午
  */
 @Data
 public class Pig {

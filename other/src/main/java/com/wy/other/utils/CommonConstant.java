@@ -4,7 +4,6 @@ package com.wy.other.utils;
  * 通用常量类
  *
  * @author wy
- * @date 2019/2/27
  */
 public class CommonConstant {
 

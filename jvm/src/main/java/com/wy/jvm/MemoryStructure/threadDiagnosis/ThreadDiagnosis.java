@@ -15,7 +15,6 @@ package com.wy.jvm.MemoryStructure.threadDiagnosis;
  * <p>
  * 使用java自带
  * jstack pid(进程id)  可以打印出pid下的线程的状态等信息  但是ps打印出的tid十进制转换为二进制的，所以要换算后进行查询具体的信息
- * @Date 2020/4/17 4:17 下午
  * <p>
  * mac系统不可用，有时间进行排查操作？？？？
  */

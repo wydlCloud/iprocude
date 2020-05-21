@@ -4,7 +4,6 @@ package com.wy.other.thread.priority;
  * @author wy
  * @Classname PriorityDemo
  * @Description 线程优先级测试
- * @Date 2019/8/26 0026 22:36
  * @company
  */
 

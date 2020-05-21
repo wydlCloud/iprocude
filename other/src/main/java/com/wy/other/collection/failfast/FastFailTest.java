@@ -7,7 +7,6 @@ import java.util.List;
  * @author wy
  * @Classname FastFailTest
  * @Description fail-fast机制
- * @Date 2019/8/24 0024 23:33
  * @company
  */
 

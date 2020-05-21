@@ -5,10 +5,9 @@ import java.util.List;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname DoorManager
  * @Description 事件源实体类
- * @Date 2020/4/1 10:06 下午
  */
 
 public class DoorManager {

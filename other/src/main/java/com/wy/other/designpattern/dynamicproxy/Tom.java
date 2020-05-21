@@ -5,7 +5,6 @@ package com.wy.other.designpattern.dynamicproxy;
  * @company wy(中国)网络科技
  * @Classname Tom
  * @Description TODO
- * @Date 2020/5/20 10:43 上午
  */
 
 public class Tom implements Person{

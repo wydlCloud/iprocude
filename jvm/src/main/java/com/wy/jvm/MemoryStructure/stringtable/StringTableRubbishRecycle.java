@@ -2,7 +2,7 @@ package com.wy.jvm.MemoryStructure.stringtable;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname StringTableRubbishRecycle
  * @Description 串池的垃圾回收
  *
@@ -10,7 +10,6 @@ package com.wy.jvm.MemoryStructure.stringtable;
  *
  * 可以通过查看StringTable statistics:来进行查看entries 的数量来查看是否有进行垃圾回收，
  * 其实是有进行垃圾回收的
- * @Date 2020/4/19 4:08 下午
  */
 
 public class StringTableRubbishRecycle {

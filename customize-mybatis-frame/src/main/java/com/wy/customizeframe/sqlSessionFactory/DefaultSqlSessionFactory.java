@@ -10,7 +10,6 @@ import com.wy.customizeframe.sqlSessionFactory.SqlSessionFactory;
  * @company wy(中国)网络科技
  * @Classname DefaultSqlSessionFactory
  * @Description TODO
- * @Date 2020/5/14 11:26 上午
  */
 
 public class DefaultSqlSessionFactory implements SqlSessionFactory {

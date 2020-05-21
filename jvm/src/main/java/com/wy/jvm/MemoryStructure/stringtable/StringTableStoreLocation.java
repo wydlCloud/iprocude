@@ -25,7 +25,6 @@ import java.util.List;
  *
  * todo 其实还有一点不是太明白，下面的list.add（）是往list中添加字面量数据，最后撑满的是list集合满了，抛出的oom
  * 我认为并不是可以验证StringTable存储的位置，这种验证方式我认为是不符合逻辑的。后续要验证这一点。？？？？？？
- * @Date 2020/4/19 3:43 下午
  */
 
 public class StringTableStoreLocation {

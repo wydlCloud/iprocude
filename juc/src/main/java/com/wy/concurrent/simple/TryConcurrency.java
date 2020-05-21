@@ -5,7 +5,7 @@ package com.wy.concurrent.simple;
  * @company
  * @Classname TryConcurrency
  * @Description TODO
- * @Date 2020/4/12 4:36 下午
+ * @ 2020/4/12 4:36 下午
  */
 
 public class TryConcurrency {

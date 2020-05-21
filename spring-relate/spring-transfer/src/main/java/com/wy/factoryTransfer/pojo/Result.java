@@ -5,7 +5,6 @@ package com.wy.factoryTransfer.pojo;
  * @company wy(中国)网络科技
  * @Classname
  * @Description
- * @Date 2020/5/21 5:39 下午
  */
 public class Result {
 

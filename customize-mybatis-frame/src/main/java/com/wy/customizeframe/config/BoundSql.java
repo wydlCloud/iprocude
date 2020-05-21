@@ -10,7 +10,6 @@ import java.util.List;
  * @company wy(中国)网络科技
  * @Classname BoundSql
  * @Description TODO
- * @Date 2020/5/15 3:23 下午
  */
 
 public class BoundSql {

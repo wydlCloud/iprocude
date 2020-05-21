@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
  * @company wy(中国)网络科技
  * @Classname BeanUtils
  * @Description TODO
- * @Date 2020/4/24 10:48 下午
  */
 public class BeanUtils implements BeanFactoryAware {
 

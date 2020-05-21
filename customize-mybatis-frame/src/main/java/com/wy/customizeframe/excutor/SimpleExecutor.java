@@ -20,7 +20,6 @@ import java.util.List;
  * @company wy(中国)网络科技
  * @Classname SimpleExcutor
  * @Description 执行器的简单实现类
- * @Date 2020/5/14 11:49 上午
  */
 
 public class SimpleExecutor implements Executor {
@@ -93,7 +92,6 @@ public class SimpleExecutor implements Executor {
      * @Param:
      * @Return:
      * @Author: wy
-     * @Date: 2020/5/14 11:18 上午
      * 其他修改人：
      * 修改时间: 2020/5/14 11:18 上午
      **/

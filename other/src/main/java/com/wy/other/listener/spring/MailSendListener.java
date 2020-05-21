@@ -7,7 +7,6 @@ import org.springframework.context.ApplicationListener;
  * @company
  * @Classname MailSendListener
  * @Description 事件监听器
- * @Date 2020/4/1 10:37 下午
  */
 
 public class MailSendListener implements ApplicationListener<MailSendEvent> {

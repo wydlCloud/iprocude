@@ -5,7 +5,6 @@ package com.wy.factoryTransfer.factory;
  * @company 唯小宝(江苏)网络科技
  * @Classname BeanFactory
  * @Description bean工厂
- * @Date 2020/5/21 8:18 下午
  */
 public interface BeanFactory {
     /**

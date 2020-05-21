@@ -22,7 +22,6 @@ import java.util.List;
  * @company wy(中国)网络科技
  * @Classname CustomizeTest
  * @Description 自定义框架测试类（支持传入自定义实体类作为入参，关于入参为int long等信息的还没有进行相关功能的编写和校验）
- * @Date 2020/5/15 4:21 下午
  */
 
 public class CustomizeTest {

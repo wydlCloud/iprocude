@@ -9,7 +9,6 @@ import org.springframework.context.ApplicationContextAware;
  * @company
  * @Classname MailSend2
  * @Description TODO
- * @Date 2020/4/1 11:17 下午
  */
 
 public class MailSend2 implements ApplicationContextAware {

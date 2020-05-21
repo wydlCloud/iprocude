@@ -5,7 +5,6 @@ package com.wy.other.polymorphism;
  * @company
  * @Classname Master
  * @Description 主人
- * @Date 2020/4/21 3:48 下午
  */
 
 public class Master {

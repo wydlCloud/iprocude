@@ -10,7 +10,6 @@ import com.wy.factoryTransfer.service.TransferService;
  * @company wy(中国)网络科技
  * @Classname TransferServiceImpl
  * @Description 转账具体实现类
- * @Date 2020/5/21 7:18 下午
  */
 
 public class TransferServiceImpl implements TransferService {

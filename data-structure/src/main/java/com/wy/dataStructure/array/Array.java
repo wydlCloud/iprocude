@@ -2,10 +2,9 @@ package com.wy.dataStructure.array;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname Array
  * @Description 手撸二次实现基本arrayList集合
- * @Date 2020/4/22 5:31 下午
  */
 
 public class Array {

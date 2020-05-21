@@ -4,10 +4,9 @@ import java.util.EventObject;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname DoorEvent
  * @Description 事件对象
- * @Date 2020/4/1 8:57 下午
  */
 
 public class DoorEvent extends EventObject {

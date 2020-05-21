@@ -7,7 +7,6 @@ import com.wy.customizeframe.sqlSession.SqlSession;
  * @company wy(中国)网络科技
  * @Classname SqlSessionFactory
  * @Description 工厂主要是造SqlSession对象
- * @Date 2020/5/13 12:35 上午
  */
 
 public interface SqlSessionFactory {

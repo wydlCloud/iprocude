@@ -5,7 +5,6 @@ package com.wy.other.polymorphism;
  * @company
  * @Classname Food
  * @Description 食物
- * @Date 2020/4/21 3:46 下午
  */
 
 public class Food {

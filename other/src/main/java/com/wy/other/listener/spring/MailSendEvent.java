@@ -8,7 +8,6 @@ import org.springframework.context.event.ApplicationContextEvent;
  * @company
  * @Classname MailSendEvent
  * @Description 事件对象
- * @Date 2020/4/1 10:36 下午
  */
 
 public class MailSendEvent extends ApplicationContextEvent {

@@ -6,7 +6,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author wy
  * @Classname Demo8
  * @Description TODO
- * @Date 2019/8/22  21:41
  * @company
  */
 //jdk提供的原子类使用（解决并发问题）

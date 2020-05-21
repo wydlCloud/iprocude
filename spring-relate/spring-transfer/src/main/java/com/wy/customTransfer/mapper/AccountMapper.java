@@ -9,7 +9,6 @@ import java.sql.SQLException;
  * @company wy(中国)网络科技
  * @Classname AccountMapper
  * @Description mapper  实体类
- * @Date 2020/5/21 5:36 下午
  */
 
 public interface AccountMapper {

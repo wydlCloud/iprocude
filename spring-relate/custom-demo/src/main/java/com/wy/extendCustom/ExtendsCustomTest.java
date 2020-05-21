@@ -26,7 +26,6 @@ package com.wy.extendCustom;
  * 可以让我们不关注这些，可以更好的对业务进行开发
  * 缺点:
  * 不能自己去管理对象，把对象的权力移交给了spring
- * @Date 2020/5/21 2:33 下午
  */
 
 public class ExtendsCustomTest {

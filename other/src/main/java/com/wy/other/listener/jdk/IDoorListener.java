@@ -4,10 +4,9 @@ import java.util.EventListener;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname IDoorListener
  * @Description 事件监听器
- * @Date 2020/4/1 8:59 下午
  */
 
 public interface IDoorListener extends EventListener {

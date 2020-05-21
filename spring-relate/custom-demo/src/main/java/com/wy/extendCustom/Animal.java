@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
  * @company wy(中国)网络科技
  * @Classname Animal
  * @Description 动物类
- * @Date 2020/5/21 2:24 下午
  */
 @Data
 public class Animal {

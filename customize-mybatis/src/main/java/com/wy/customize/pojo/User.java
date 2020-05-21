@@ -5,7 +5,6 @@ package com.wy.customize.pojo;
  * @company wy(中国)网络科技
  * @Classname User
  * @Description 用户实体类
- * @Date 2020/5/11 11:20 下午
  */
 
 public class User {

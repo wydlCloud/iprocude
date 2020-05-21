@@ -9,7 +9,6 @@ import org.springframework.context.ApplicationContextAware;
  * @company
  * @Classname MailSend
  * @Description 事件源
- * @Date 2020/4/1 10:40 下午
  */
 
 public class MailSend implements ApplicationContextAware {

@@ -5,7 +5,6 @@ package com.wy.jvm.MemoryStructure.stringtable;
  * @company
  * @Classname StringLazyLoad
  * @Description 字符串延迟加载 使用到的时候才会进行加载，不会提前加载，可以根据idea的memory框来查看数量
- * @Date 2020/4/19 12:42 上午
  */
 
 public class StringLazyLoad {

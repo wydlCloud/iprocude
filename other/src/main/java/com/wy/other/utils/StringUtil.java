@@ -6,7 +6,6 @@ import java.security.MessageDigest;
  * 字符串工具类
  *
  * @author wy
- * @date 2018/11/01
  */
 public class StringUtil {
 

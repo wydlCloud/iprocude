@@ -15,7 +15,6 @@ import java.util.List;
  * @company wy(中国)网络科技
  * @Classname XMLMapperConfigBuilder
  * @Description 解析Mapper.xml文件实体类
- * @Date 2020/5/13 5:52 下午
  */
 
 public class XMLMapperConfigBuilder {

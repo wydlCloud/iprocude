@@ -4,10 +4,9 @@ import java.text.MessageFormat;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname StringTableTest
  * @Description TODO
- * @Date 2020/4/20 8:29 下午
  */
 
 public class StringTableTest {

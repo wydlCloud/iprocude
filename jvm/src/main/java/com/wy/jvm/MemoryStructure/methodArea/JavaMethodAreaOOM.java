@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname JavaMethodAreaOOM
  * @Description
  * 参数命令为：-XX:MaxMetaspaceSize=9m
@@ -24,7 +24,6 @@ import java.lang.reflect.Method;
  * 方法区溢出也是一种常见的内存溢出异常，一个类要被垃圾收集器回收掉，判定条件是比较苛刻的。
  * 在经常动态生成大量Class的应用中，需要特别注意类的回收情况。这类场景除了提高的cglib字节码增强和动态语言之外，基于OSGI的应用
  * 即使是同一个类文件，被不同的加载器假造也会被视为不同的类等。
- * @Date 2020/4/21 11:28 下午
  */
 
 public class JavaMethodAreaOOM {

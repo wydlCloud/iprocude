@@ -13,7 +13,6 @@ import java.util.List;
  * @Classname StackFlowError1
  * @Description
  * Caused by: java.lang.StackOverflowError
- * @Date 2020/4/17 4:00 下午
  */
 
 public class StackFlowError1 {

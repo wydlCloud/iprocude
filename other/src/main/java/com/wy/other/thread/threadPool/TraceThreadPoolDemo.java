@@ -7,7 +7,6 @@ import java.util.concurrent.*;
  * @author wy
  * @Classname TraceThreadPoolDemo
  * @Description 我们来扩展线程池，让它在调度任务之前，先保存一下提交任务的线程的堆栈信息
- * @Date 2019/8/27 0027 23:30
  * @company
  */
 

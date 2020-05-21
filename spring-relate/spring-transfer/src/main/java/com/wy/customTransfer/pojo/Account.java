@@ -5,7 +5,6 @@ package com.wy.customTransfer.pojo;
  * @company wy(中国)网络科技
  * @Classname Account
  * @Description 账户实体信息类
- * @Date 2020/5/21 5:37 下午
  */
 
 public class Account {

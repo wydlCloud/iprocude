@@ -2,10 +2,9 @@ package com.wy.other.listener.jdk;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname
  * @Description TODO
- * @Date 2020/4/1 10:11 下午
  */
 
 public class Test {

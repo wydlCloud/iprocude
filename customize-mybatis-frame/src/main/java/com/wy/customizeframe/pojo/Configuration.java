@@ -10,7 +10,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * @company
  * @Classname Configuration
  * @Description 数据源核心配置类
- * @Date 2020/5/12 12:20 上午
  */
 
 public class Configuration {

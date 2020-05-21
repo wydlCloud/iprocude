@@ -24,7 +24,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * 需要更换，如果沿用之前的方式的话，这样所有引用的地方都需要进行修改，维护成本较高，开发成本较高，而且没有解耦，所以耦合性很强
  * 那么维护成本和扩展性就比较低，牵一发可能动全身
  * 所以通过这种方式就可以解决这个问题，只需要修改配置即可，一改即用
- * @Date 2020/5/21 8:23 下午
  */
 
 public class XmlConfigApplicationContext implements BeanFactory {

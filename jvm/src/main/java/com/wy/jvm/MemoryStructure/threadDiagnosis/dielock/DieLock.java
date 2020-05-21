@@ -5,7 +5,6 @@ package com.wy.jvm.MemoryStructure.threadDiagnosis.dielock;
  * @company
  * @Classname DieLock
  * @Description 迟迟拿不到结果  死锁
- * @Date 2020/4/17 5:27 下午
  */
 public class DieLock {
 

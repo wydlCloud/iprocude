@@ -9,7 +9,6 @@ import java.util.List;
  * @company wy(中国)网络科技
  * @Classname UserMapper
  * @Description
- * @Date 2020/5/17 1:22 下午
  */
 
 public interface UserMapper {

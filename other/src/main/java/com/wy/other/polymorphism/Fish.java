@@ -5,7 +5,6 @@ package com.wy.other.polymorphism;
  * @company
  * @Classname Fish
  * @Description 鱼
- * @Date 2020/4/21 3:47 下午
  */
 
 public class Fish extends Food {

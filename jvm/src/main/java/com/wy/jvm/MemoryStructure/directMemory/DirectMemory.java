@@ -11,7 +11,6 @@ import java.lang.reflect.Field;
  * @Description 直接内存
  * 参数配置
  * -Xmx20M -XX:MaxDirectMemorySize=10M
- * @Date 2020/4/19 4:24 下午
  */
 
 public class DirectMemory {

@@ -10,7 +10,6 @@ package com.wy.jvm.MemoryStructure.stack;
  * The stack size specified is too small, Specify at least 160k
  * 设置栈的大小最小为160K
  *
- * @Date 2020/4/15 10:31 上午
  */
 
 public class StackFlowError {

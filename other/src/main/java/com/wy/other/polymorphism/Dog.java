@@ -5,7 +5,6 @@ package com.wy.other.polymorphism;
  * @company
  * @Classname Dog
  * @Description 狗
- * @Date 2020/4/21 3:43 下午
  */
 
 public class Dog extends Animal {

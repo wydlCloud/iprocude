@@ -11,7 +11,6 @@ import jdk.internal.org.objectweb.asm.Opcodes;
  * @Description jdk1.8之前是方法区内存溢出  jdk1.8以及以后是元空间内存溢出
  * 参数命令为：-XX:MaxMetaspaceSize=9m
  * java.lang.OutOfMemoryError
- * @Date 2020/4/18 4:59 下午
  */
 
 public class MethodAreaOOM extends ClassLoader{

@@ -7,7 +7,6 @@ import java.io.InputStream;
  * @company
  * @Classname Resources
  * @Description 资源加载器
- * @Date 2020/5/12 12:24 上午
  */
 
 public class Resources {

@@ -5,7 +5,6 @@ package com.wy.customizeframe.pojo;
  * @company
  * @Classname MappedStatement
  * @Description mapper.xml信息配置类
- * @Date 2020/5/12 12:22 上午
  */
 
 public class MapperStatement {

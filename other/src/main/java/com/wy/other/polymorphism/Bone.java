@@ -2,10 +2,9 @@ package com.wy.other.polymorphism;
 
 /**
  * @author wy
- * @company 妈妈好网络科技
+ * @company 中国网络科技
  * @Classname Bone
  * @Description 食物类
- * @Date 2020/4/21 3:47 下午
  */
 
 public class Bone extends Food {
