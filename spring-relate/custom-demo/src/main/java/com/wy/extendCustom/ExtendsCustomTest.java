@@ -2,7 +2,7 @@ package com.wy.extendCustom;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname ExtendsCustomTest
  * @Description
  * 但是这样的话还是会存在问题，因为这种情况下，比如说，我想在每个方法前和后想做性能监控这样的话，我只能这么去做，见代码，在animal类中已经做了很详细的阐述
