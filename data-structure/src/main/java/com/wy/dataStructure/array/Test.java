@@ -2,7 +2,7 @@ package com.wy.dataStructure.array;
 
 /**
  * @author wy
- * @company wy(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname Test
  * @Description TODO
  * @Date 2020/4/29 4:18 下午

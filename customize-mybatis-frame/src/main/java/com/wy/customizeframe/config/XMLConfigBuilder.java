@@ -18,7 +18,7 @@ import java.util.Properties;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname XMLConfigBuilder
  * @Description 解析sqlMapConfig.xml 实体类
  * @Date 2020/5/13 5:29 下午

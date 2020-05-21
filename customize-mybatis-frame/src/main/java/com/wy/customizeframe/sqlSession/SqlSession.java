@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname SqlSession
  * @Description
  * sqlSession，其实在底层是封装了jdbc执行的底层方法，让起来执行，所以这里理解为会话对象

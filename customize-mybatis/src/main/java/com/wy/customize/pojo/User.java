@@ -2,7 +2,7 @@ package com.wy.customize.pojo;
 
 /**
  * @author wy
- * @company wy(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname User
  * @Description 用户实体类
  * @Date 2020/5/11 11:20 下午

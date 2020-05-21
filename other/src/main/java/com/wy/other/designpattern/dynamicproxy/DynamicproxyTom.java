@@ -11,7 +11,7 @@ import java.time.Period;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname DynamicproxyTom
  * @Description 自定义代理类
  * @Date 2020/5/20 10:45 上午

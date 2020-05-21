@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname XMLMapperConfigBuilder
  * @Description 解析Mapper.xml文件实体类
  * @Date 2020/5/13 5:52 下午

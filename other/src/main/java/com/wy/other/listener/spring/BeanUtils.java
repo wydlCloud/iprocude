@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author wy
- * @company wy(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname BeanUtils
  * @Description TODO
  * @Date 2020/4/24 10:48 下午

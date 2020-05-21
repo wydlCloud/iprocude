@@ -12,7 +12,7 @@
 //
 ///**
 // * @author wy
-// * @company 唯小宝(江苏)网络科技
+// * @company wy(中国)网络科技
 // * @Classname UserMapperImpl
 // * @Description 此种是伪mapper方式，因为通过这种方式的话，会存在一些问题， 如果不适用此方式，在应用层去操作dao层，显然也不合理
 // * （1） 存在重复编码问题

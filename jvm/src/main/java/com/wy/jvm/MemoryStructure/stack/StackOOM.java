@@ -2,7 +2,7 @@ package com.wy.jvm.MemoryStructure.stack;
 
 /**
  * @author wy
- * @company wy(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname StackOOM
  * @Description 栈内存溢出OOM
  * 主要是通过创建多个线程的方式来使得栈内存溢出 oom

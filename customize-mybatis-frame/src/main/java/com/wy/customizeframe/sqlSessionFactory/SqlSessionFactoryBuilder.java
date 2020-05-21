@@ -11,7 +11,7 @@ import java.io.InputStream;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname SqlSessionFactoryBuilder
  * @Description 解析xml文件，并进行管理
  * @Date 2020/5/12 11:11 下午
