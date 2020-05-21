@@ -1,8 +1,8 @@
-package com.wy.customTransfer.mapper.impl;
+package com.wy.factoryTransfer.mapper.impl;
 
-import com.wy.customTransfer.mapper.AccountMapper;
-import com.wy.customTransfer.pojo.Account;
-import com.wy.customTransfer.utils.ConnectionUtils;
+import com.wy.factoryTransfer.mapper.AccountMapper;
+import com.wy.factoryTransfer.pojo.Account;
+import com.wy.factoryTransfer.utils.ConnectionUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,4 +1,4 @@
-package com.wy.customTransfer.pojo;
+package com.wy.factoryTransfer.pojo;
 
 /**
  * @author wy

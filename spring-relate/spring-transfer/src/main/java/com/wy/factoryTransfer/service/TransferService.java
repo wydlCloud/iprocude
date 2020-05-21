@@ -1,4 +1,4 @@
-package com.wy.customTransfer.service;
+package com.wy.factoryTransfer.service;
 
 /**
  * @author wy
@@ -8,6 +8,6 @@ package com.wy.customTransfer.service;
  * @Date 2020/5/21 7:18 下午
  */
 public interface TransferService {
-    void transfer(String fromCardNo,String toCardNo,int money) throws Exception;
+    void transfer(String fromCardNo, String toCardNo, int money) throws Exception;
 
 }

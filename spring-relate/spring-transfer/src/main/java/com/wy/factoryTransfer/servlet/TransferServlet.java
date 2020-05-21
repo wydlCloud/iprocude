@@ -1,10 +1,10 @@
-package com.wy.customTransfer.servlet;
+package com.wy.factoryTransfer.servlet;
 
 
-import com.wy.customTransfer.pojo.Result;
-import com.wy.customTransfer.service.TransferService;
-import com.wy.customTransfer.service.impl.TransferServiceImpl;
-import com.wy.customTransfer.utils.JsonUtils;
+import com.wy.factoryTransfer.pojo.Result;
+import com.wy.factoryTransfer.service.TransferService;
+import com.wy.factoryTransfer.service.impl.TransferServiceImpl;
+import com.wy.factoryTransfer.utils.JsonUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

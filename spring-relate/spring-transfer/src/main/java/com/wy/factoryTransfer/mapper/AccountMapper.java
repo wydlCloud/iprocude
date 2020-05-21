@@ -1,6 +1,6 @@
-package com.wy.customTransfer.mapper;
+package com.wy.factoryTransfer.mapper;
 
-import com.wy.customTransfer.pojo.Account;
+import com.wy.factoryTransfer.pojo.Account;
 
 import java.sql.SQLException;
 

@@ -1,9 +1,9 @@
-package com.wy.customTransfer.service.impl;
+package com.wy.factoryTransfer.service.impl;
 
-import com.wy.customTransfer.mapper.AccountMapper;
-import com.wy.customTransfer.mapper.impl.JDBCAccountMapperImpl;
-import com.wy.customTransfer.pojo.Account;
-import com.wy.customTransfer.service.TransferService;
+import com.wy.factoryTransfer.mapper.AccountMapper;
+import com.wy.factoryTransfer.mapper.impl.JDBCAccountMapperImpl;
+import com.wy.factoryTransfer.pojo.Account;
+import com.wy.factoryTransfer.service.TransferService;
 
 /**
  * @author wy
