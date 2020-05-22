@@ -18,6 +18,18 @@ import java.sql.SQLException;
  *
  * 后面要继续记一下事务是如何进行管理的，如何来实现的事务，并且自己手动实现一下，才会记录的更加清晰，因为这些内容，思想都是大同小异的，
  * 但是那些大师在实现的时候，加入了很多好的设计思想在其中，这是真正值得去借鉴的。
+ *
+ *
+ * 事务如何进行管理呢？
+ *
+ *
+ *JDBC 其实本事就提供了，事务提交，事务回滚机制，默认的情况下，是在数据量连接创建之后，数据库连接关闭时自动提交事务，如果想手动进行控制，要进行手动进行管理
+ * 设置手动提交
+ * connection.setAutoCommit(false)
+ * 提交
+ * connection.commit();
+ * 回滚
+ * connection.rollback();
  */
 public class ConnectionUtils {
 
