@@ -11,7 +11,8 @@
 		<module>customize-mybatis</module>
         <module>customize-mybatis-frame</module>
 		<module>spring-relate</module>
-	</modules>
+        <module>design-pattern</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

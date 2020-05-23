@@ -17,9 +17,9 @@ public class TransferServiceImpl implements TransferService {
     // private AccountMapper accountMapper=new JDBCAccountMapperImpl();
 
     // s2 简易版ioc的方式来实现对象的注入，实现解耦的目的，但是我们还不想要后面的这一段，加上感觉不是太符合面向接口开发的最优原则
-    // =new XmlConfigApplicationContext().getBean("accountMapper");
-    // 这样的话，就可以通过对父标签进行依赖注入的方式来实现，在XmlConfigApplicationContext中进行了依赖注入的解析
-    // private AccountMapper accountMapper=new XmlConfigApplicationContext().getBean("accountMapper");
+    // =new BeanFactory.getBean("accountMapper");
+    // 这样的话，就可以通过对父标签进行依赖注入的方式来实现，在BeanFactory中进行了依赖注入的解析
+    // private AccountMapper accountMapper=new BeanFactory().getBean("accountMapper");
 
     /* step3 依赖注入的方式来实现，但是需要set方法的存在 */
     private AccountMapper accountMapper;
