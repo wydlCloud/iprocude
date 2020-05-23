@@ -104,8 +104,8 @@ public class BeanFactory {
         }
     }
 
-    public static <T> T getBean(String id) {
-        return (T) beanMap.get(id);
+    public static Object getBean(String id) {
+        return beanMap.get(id);
     }
 
 }

@@ -1,6 +1,7 @@
 package com.wy.factoryTransfer.servlet;
 
 import com.wy.factoryTransfer.factory.BeanFactory;
+import com.wy.factoryTransfer.factory.ProxyFactory;
 import com.wy.factoryTransfer.pojo.Result;
 import com.wy.factoryTransfer.service.TransferService;
 import com.wy.factoryTransfer.utils.JsonUtils;
@@ -13,18 +14,25 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author 应癫
+ * @author wy
  */
-@WebServlet(name="transferServlet",urlPatterns = "/transferServlet")
+@WebServlet(name = "transferServlet", urlPatterns = "/transferServlet")
 public class TransferServlet extends HttpServlet {
 
     // 1. 实例化service层对象
     //private TransferService transferService = new TransferServiceImpl();
-    private TransferService transferService = (TransferService) BeanFactory.getBean("transferService");
+    // 2.通过简易版本的ioc容器，来获取接口类
+    // private TransferService transferService = (TransferService) BeanFactory.getBean("transferService");
+    // 3.通过代理类的方式，来实现对事务进行管理，要么全部成功，要么全部失败
+    // 生成代理对象
+    private ProxyFactory proxyFactory = (ProxyFactory) BeanFactory.getBean("proxyFactory");
+    // 生成代理对象
+    private TransferService transferService = (TransferService) proxyFactory.getJDKProxy(BeanFactory.getBean("transferService"));
+
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req,resp);
+        doPost(req, resp);
     }
 
     @Override
@@ -43,7 +51,7 @@ public class TransferServlet extends HttpServlet {
         try {
 
             // 2. 调用service层方法
-            transferService.transfer(fromCardNo,toCardNo,money);
+            transferService.transfer(fromCardNo, toCardNo, money);
             result.setStatus("200");
         } catch (Exception e) {
             e.printStackTrace();
