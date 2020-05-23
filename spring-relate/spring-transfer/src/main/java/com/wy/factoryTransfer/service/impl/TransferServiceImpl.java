@@ -1,6 +1,5 @@
 package com.wy.factoryTransfer.service.impl;
 
-import com.wy.factoryTransfer.factory.XmlConfigApplicationContext;
 import com.wy.factoryTransfer.mapper.AccountMapper;
 import com.wy.factoryTransfer.mapper.impl.JDBCAccountMapperImpl;
 import com.wy.factoryTransfer.pojo.Account;

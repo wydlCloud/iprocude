@@ -17,7 +17,11 @@ import java.sql.SQLException;
  */
 
 public class JDBCAccountMapperImpl implements AccountMapper {
-    private ConnectionUtils connectionUtils=new ConnectionUtils();
+    private ConnectionUtils connectionUtils;
+
+    public void setConnectionUtils(ConnectionUtils connectionUtils) {
+        this.connectionUtils = connectionUtils;
+    }
 
     @Override
     public Account queryAccountByCardNo(String cardNo) throws SQLException {

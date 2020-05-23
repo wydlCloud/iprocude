@@ -1,4 +1,4 @@
-package com.wy.other.designpattern.factory;
+package com.wy.other.designpattern.factory.simpleFactory1;
 
 /**
  * Created on 2019/9/14.
