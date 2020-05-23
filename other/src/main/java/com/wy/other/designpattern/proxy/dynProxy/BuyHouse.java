@@ -1,14 +1,15 @@
-package com.wy.other.designpattern.proxy.staticProxy;
+package com.wy.other.designpattern.proxy.dynProxy;
 
 /**
  * @author wy
  * @company wy(中国)网络科技
  * @Classname BuyHouse
- * @Description 接口 买房
+ * @Description  买房接口
  */
+
 public interface BuyHouse {
     /**
-     * 买房
+     * 买房接口
      */
     void buyHouse();
 }

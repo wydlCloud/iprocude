@@ -4,7 +4,7 @@ import com.wy.other.designpattern.factory.simpleFactory.inoodle.INoodles;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname MethodFactoryTest
  * @Description TODO
  */

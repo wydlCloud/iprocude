@@ -5,7 +5,7 @@ import com.wy.other.designpattern.factory.simpleFactory.inoodle.ReNoodles;
 
 /**
  * @author wy
- * @company 唯小宝(江苏)网络科技
+ * @company wy(中国)网络科技
  * @Classname ReNoodlesFactory
  * @Description TODO
  */
