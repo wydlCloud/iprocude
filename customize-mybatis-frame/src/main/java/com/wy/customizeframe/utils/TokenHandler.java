@@ -16,7 +16,7 @@
 package com.wy.customizeframe.utils;
 
 /**
- * @author Clinton Begin
+ * @author wy
  */
 public interface TokenHandler {
   String handleToken(String content);
