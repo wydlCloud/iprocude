@@ -12,16 +12,6 @@ public class TryCatchTest {
 
 
     public static void main(String[] args) {
-        DemoServiceImpl demoService=new DemoServiceImpl();
-        try {
-            long test = demoService.test();
-        }catch (ArithmeticException e){
-            System.out.println(e);
-            System.out.println("world");
-        }catch (Exception e){
-            System.out.println(e);
-            System.out.println("spring");
-        }
-        System.out.println("hello");
+
     }
 }

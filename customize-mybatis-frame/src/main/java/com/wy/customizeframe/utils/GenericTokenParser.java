@@ -16,7 +16,7 @@
 package com.wy.customizeframe.utils;
 
 /**
- * @author Clinton Begin
+ * @author wy
  */
 public class GenericTokenParser {
 
