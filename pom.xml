@@ -10,8 +10,8 @@
 		<module>data-structure</module>
 		<module>customize-mybatis</module>
         <module>customize-mybatis-frame</module>
-		<module>spring-relate</module>
         <module>design-pattern</module>
+        <module>spring-demo</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
@@ -118,4 +118,17 @@
 <!--		</plugins>-->
 <!--	</build>-->
 
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
 </project>

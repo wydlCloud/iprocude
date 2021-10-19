@@ -69,7 +69,7 @@ public class DefaultSqlSession implements SqlSession {
                 return selectOne(statementId,args);
             }
         });
-        addClassToDisk(clazz.getName(), clazz,"/Users/wy/project/concurrent/customize-mybatis-frame/$Proxy1.class");
+        addClassToDisk(clazz.getName(), clazz,"/Users/wy/project/OWN/iprocude/customize-mybatis/src/main/resources/$Proxy1.class");
         return (T) proxyInstance;
     }
     /**

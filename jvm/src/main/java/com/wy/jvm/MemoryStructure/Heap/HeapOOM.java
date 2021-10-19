@@ -18,19 +18,19 @@ import java.util.List;
 public class HeapOOM {
 
     public static void main(String[] args) {
-        int i=0;
-        List<String> list= Lists.newArrayList();
-        String oom="乌云";
+        int i = 0;
+        List<String> list = Lists.newArrayList();
+        String oom = "乌云";
         try {
-            while (true){
-                oom=oom+oom;
+            while (true) {
+                oom = oom + oom;
                 list.add(oom);
                 i++;
             }
-        }catch (Throwable e){
+        } catch (Throwable e) {
             e.printStackTrace();
             System.out.println(i);
         }
     }
 
-   }
+}

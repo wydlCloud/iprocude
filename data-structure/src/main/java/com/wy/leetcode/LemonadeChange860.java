@@ -1,5 +1,6 @@
 package com.wy.leetcode;
 
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -93,9 +94,11 @@ public class LemonadeChange860 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {5, 5, 5, 10, 20};
-        boolean b = lemonadeChange(nums);
-        System.out.println(b);
+//        int[] nums = {5, 5, 5, 10, 20};
+//        boolean b = lemonadeChange(nums);
+//        System.out.println(b);
+        String s = "LINK_PRE" + "&query=" + URLEncoder.encode("activityId=" + null);
+        System.out.println(s);
     }
 
 }
