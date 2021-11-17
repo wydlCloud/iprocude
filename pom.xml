@@ -12,6 +12,7 @@
         <module>customize-mybatis-frame</module>
         <module>design-pattern</module>
         <module>spring-demo</module>
+        <module>newFeature</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
