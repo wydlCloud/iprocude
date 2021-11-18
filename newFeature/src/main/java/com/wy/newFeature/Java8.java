@@ -7,16 +7,29 @@ public class Java8 {
 
     public static void main(String[] args) {
         try {
-            System.out.println("test2");
             List<String> dateList = new ArrayList<>();
-            dateList.add("2019-03-05");
-            dateList.add("2019-03-06");
-            dateList.add("2019-03-07");
-            dateList.add("2019-03-27");
-            dateList.add("2019-03-28");
-            dateList.add("2019-03-29");
-            dateList.add("2019-03-30");
-            dateList.add("2019-03-31");
+//            dateList.add("2020-12-28");
+//            dateList.add("2020-12-29");
+//            dateList.add("2020-12-31");
+//            dateList.add("2020-12-31");
+//            dateList.add("2021-01-01");
+//            dateList.add("2021-01-02");
+//            dateList.add("2021-01-03");
+            dateList.add("2020-12-20");
+            dateList.add("2020-12-21");
+            dateList.add("2020-12-22");
+            dateList.add("2020-12-31");
+            dateList.add("2021-01-01");
+            dateList.add("2021-01-03");
+            dateList.add("2021-01-06");
+            // 左开右闭
+            List<String> strings = dateList.subList(6, 7);
+            System.out.println(strings);
+
+            // step1 判断是否有赠送积分的操作，如果有，必然不满足连续7天
+            // step2 如果没有 则判断此7条数据日期是否连续7天
+            // 满足7天，则赠送积分
+            // 不满足7天，则结束
             List<Date> dates = new ArrayList<>();
             for (String date : dateList) {
                 Calendar calendarTo = Calendar.getInstance();
@@ -29,18 +42,27 @@ public class Java8 {
             }
             int count = 1;
             for (int i = dates.size() - 1; i > 0; i--) {
-                if ((dates.get(i).getTime() - dates.get(i - 1).getTime()) / (1000 * 60 * 60 * 24) == 1) {
+                long time = dates.get(i).getTime();
+                long time1 = dates.get(i - 1).getTime();
+                if ((time - time1) / (1000 * 60 * 60 * 24) == 1) {
                     count++;
-                    if (count > 4) {
-                        System.out.println("已经连续休假超过4天啦！");
-                        // return true;
-                    } else {
-                        System.out.println("连续休假" + count + "天");
+                    if (count == 7) {
+                        System.out.println("已经连续7天啦！");
+//                         return true;
                     }
+//                    else {
+//                        System.out.println("连续休假" + count + "天");
+//                    }
                 } else {
-                    count = 1;
+                    break;
                 }
+//                else {
+//                    count = 1;
+//                }
             }
+            System.out.println(count);
+            String s = dateList.get(count - 1);
+            System.out.println(s);
             // return false;
         } catch (Exception e) {
             e.printStackTrace();

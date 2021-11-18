@@ -10,7 +10,8 @@ import java.util.stream.Stream;
 public class Test1 {
 
     public static void main(String[] args) {
-
+        int count = Stream.of(1, 2, 3)
+                .reduce(0, (acc, element) -> acc + element);
         List<String> collect = Stream.of("a", "b", "c")
                 .map(s -> s.toUpperCase()) // 惰性求值
                 .collect(Collectors.toList()); // 及时求值
